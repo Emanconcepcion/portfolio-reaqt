@@ -10,16 +10,16 @@ const Navbar = () => {
 
         <ul class="nav__menu">
           <li>
-            <a href="#Header">HOME</a>
+            <a href="/">HOME</a>
           </li>
           <li>
-            <a href="#Services">SERVICES</a>
+            <a href="/Services">SERVICES</a>
           </li>
           <li>
-            <a href="#Portfolio">PORTFOLIO</a>
+            <a href="/Portfolio">PORTFOLIO</a>
           </li>
           <li>
-            <a href="#Contact">CONTACT</a>
+            <a href="/Contact">CONTACT</a>
           </li>
           <li>
             <a href="../public/Resume.pdf" class="btn btn-primary" download>

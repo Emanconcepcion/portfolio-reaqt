@@ -1,4 +1,8 @@
 import React from "react";
+import GetOutside from "../Assets/work/mockup.jpg";
+import BookSearch from "../Assets/work/Screenshot3.PNG";
+import Recipe from "../Assets/work/Screenshot1.png";
+import Art from "../Assets/work/homepage.png";
 
 const Portfolio = () => {
   return (
@@ -23,7 +27,7 @@ const Portfolio = () => {
         <div class="portfolio__projects">
           <article class="portfolio__project">
             <span class="portfolio__project-image">
-              <img src="../public/mockup.jpg" />
+              <img src={GetOutside} alt="Get Outside" />
             </span>
             <div class="portfolio__cta">
               <a
@@ -44,7 +48,7 @@ const Portfolio = () => {
           </article>
           <article class="portfolio__project">
             <span class="portfolio__project-image">
-              <img src="../public/screenshot3.PNG" />
+              <img src={BookSearch} alt="Book Search" />
             </span>
             <div class="portfolio__cta">
               <a
@@ -65,7 +69,7 @@ const Portfolio = () => {
           </article>
           <article class="portfolio__project">
             <span class="portfolio__project-image">
-              <img src="../public/Screenshot1.png" />
+              <img src={Recipe} alt="Recipe Box" />
             </span>
             <div class="portfolio__cta">
               <a
@@ -86,7 +90,7 @@ const Portfolio = () => {
           </article>
           <article class="portfolio__project">
             <span class="portfolio__project-image">
-              <img src="../public/homepage.png" />
+              <img src={Art} alt="3rd Party API" />
             </span>
             <div class="portfolio__cta">
               <a

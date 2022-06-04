@@ -1,4 +1,5 @@
 import React from "react";
+import Photo from "../Assets/images/edit1.jpg";
 
 const About = () => {
   return (
@@ -24,7 +25,7 @@ const About = () => {
 
         <div class="header__right">
           <div class="header__image">
-            <img src="../public/edit1.jpg" />
+            <img src={Photo} alt="Profile Picture" />
           </div>
           <div class="header__right-bg"></div>
           <ul class="header__socials">
