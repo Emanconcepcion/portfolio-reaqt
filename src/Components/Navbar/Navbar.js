@@ -13,10 +13,16 @@ const Navbar = () => {
             <a href="/">HOME</a>
           </li>
           <li>
+            <a href="/Skills">SKILLS</a>
+          </li>
+          <li>
             <a href="/Services">SERVICES</a>
           </li>
           <li>
             <a href="/Portfolio">PORTFOLIO</a>
+          </li>
+          <li>
+            <a href="/Testimonials">TESTIMONIALS</a>
           </li>
           <li>
             <a href="/Contact">CONTACT</a>
