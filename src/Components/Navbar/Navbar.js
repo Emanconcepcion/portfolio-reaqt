@@ -1,5 +1,5 @@
 import React from "react";
-import DarkMode from "../darkmode/Darkmode";
+
 
 const Navbar = () => {
   return (
