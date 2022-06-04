@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+import Footer from "./Components/Footer/Footer";
 import About from "./pages/Header";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
