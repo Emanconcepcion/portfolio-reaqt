@@ -17,11 +17,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/Skills" element={<Skills />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Services" element={<Services />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Testimonials" element={<Testimonials />} />
           <Route path="*" element={<Invalid404Page />} />
         </Routes>
         <Footer />

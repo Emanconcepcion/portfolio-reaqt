@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Navbar = () => {
   return (
     <nav>
@@ -11,19 +10,19 @@ const Navbar = () => {
 
         <ul class="nav__menu">
           <li>
-            <a href="index.html">HOME</a>
+            <a href="#Header">HOME</a>
           </li>
           <li>
-            <a href="#services">SERVICES</a>
+            <a href="#Services">SERVICES</a>
           </li>
           <li>
-            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#Portfolio">PORTFOLIO</a>
           </li>
           <li>
-            <a href="#contact">CONTACT</a>
+            <a href="#Contact">CONTACT</a>
           </li>
           <li>
-            <a href="./Resume.pdf" class="btn btn-primary" download>
+            <a href="../public/Resume.pdf" class="btn btn-primary" download>
               <i class="uil uil-download-alt"></i> RESUME
             </a>
           </li>

@@ -5,7 +5,6 @@ const Invalid404Page = () => {
     <div>
       <h3 style={{ paddingTop: "20px" }}>This page doesn't exist</h3>
       <a style={{ fontSize: "2rem", textDecoration: "none" }} href="/">
-        <AiOutlineArrowLeft />
         About Me
       </a>
     </div>
